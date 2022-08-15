@@ -1,0 +1,21 @@
+1- Aşağıda json kullanıcı adı, şifre ve haklarının tanımı olan Json dosyaya göre giriş işlemi . Aşağıdaki json dosyayı kullanicilar.json olarak bilgisayarınıza kaydediniz.
+ 
+[{
+    "name" : "Admin",
+    "password" : 369,
+    "rights" : [ "admin", "editor", "contributor" ]
+},
+{
+    "name" : "editor",
+    "password" : 456,
+    "rights" : [ "editor", "contributor" ]
+}]
+
+
+2- 3 sayfa oluşacak iletişim ana sayfa ve raporlar olarak
+
+ana sayfa (herkes görebilecek)
+iletişim (sadece admin ve editor görebilecek)
+raporlar (sadece admin görebilecek)
+
+3- https://gorest.co.in/public/v2/users rest api ile gelen verileri raporlar sayfasında göstermek get metodu ile çağrılabilmektedir.
